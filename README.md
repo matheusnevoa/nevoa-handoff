@@ -2,6 +2,17 @@
 
 Skill para transformar o estado atual de uma sessão em um handoff curto, estruturado e acionável para outro agente continuar o trabalho sem precisar redescobrir contexto.
 
+## Como invocar
+
+A skill usa o nome `nevoa-handoff`.
+
+- **Codex:** `$nevoa-handoff`
+- **Claude Code:** `/nevoa-handoff`
+
+Ela foi pensada para invocação manual. Como `disable-model-invocation: true`, o agente não deve dispará-la automaticamente por conta própria.
+
+Para que esses comandos funcionem, a skill precisa estar instalada no diretório de skills correspondente usando o nome `nevoa-handoff`.
+
 ## O que a skill faz
 
 Ao ser chamada, a skill analisa a conversa e o estado atual do trabalho e gera um arquivo `handoff.md` no diretório temporário do sistema operacional.
