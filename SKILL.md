@@ -1,10 +1,10 @@
 ---
-name: handoff
+name: nevoa-handoff
 description: Create a compact, actionable handoff document so another agent can continue the current work without rediscovering context or reopening settled decisions.
 disable-model-invocation: true
 ---
 
-# Handoff
+# Nevoa Handoff
 
 Create a concise Markdown handoff document that allows a fresh agent to continue the current work with minimal rediscovery.
 
